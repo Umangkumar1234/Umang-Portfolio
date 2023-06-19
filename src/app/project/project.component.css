@@ -1,0 +1,11 @@
+:host {
+    display: block;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+ul li{
+    font-size: 0.9rem;
+    padding-top: 1.3rem;
+    text-align: justify;
+}

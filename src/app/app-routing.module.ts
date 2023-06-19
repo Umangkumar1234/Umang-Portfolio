@@ -6,6 +6,8 @@ import { PosterComponent } from './poster/poster.component';
 import { CertificationComponent } from './certification/certification.component';
 import { SkillsComponent } from './skills/skills.component';
 import { WorkComponent } from './work/work.component';
+import { ResumeComponent } from './resume/resume.component';
+import { ProjectComponent } from './project/project.component';
 
 const routes: Routes = [
   { path: '', component:PosterComponent,pathMatch:'full' },
@@ -14,7 +16,9 @@ const routes: Routes = [
   { path:"poster",component:PosterComponent},
   { path:"certification",component:CertificationComponent},
   { path: "skills",component:SkillsComponent},
-  { path: "works",component:WorkComponent}
+  { path: "works",component:WorkComponent},
+  { path: "resume",component:ResumeComponent},
+  { path:"project",component:ProjectComponent}
 ];
 
 @NgModule({

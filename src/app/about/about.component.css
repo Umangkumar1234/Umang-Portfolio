@@ -16,3 +16,26 @@
     border: 1px solid rgb(11, 96, 145);
     border-radius: 5%;
 }
+
+@media (max-width:420px) {
+    
+    .abc span{
+        color: aliceblue;
+        font-size: 0.7rem; 
+        width: fit-content;
+    }
+    .abc span a{
+        color: rgb(19, 3, 114);
+        font-size: 0.7rem; 
+        width: fit-content;
+    }
+
+    .imgcertificate img{
+        width: 50%;
+        height: 150px;
+        border: 1px solid rgb(11, 96, 145);
+        border-radius: 5%;
+        margin-right: 50px;
+    }
+
+}

@@ -1,44 +1,15 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-  <div class="container">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex facilis obcaecati molestiae dicta, ipsam, aliquam vel accusamus eveniet non quis sunt nam autem quos ipsa dolorem, eos officiis vero libero?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui labore laboriosam laborum ducimus expedita architecto sit totam asperiores repellendus voluptatum, accusantium accusamus corporis unde alias tempora ipsa consectetur iste itaque?
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod fugiat numquam deleniti laboriosam nobis vel sit eligendi ipsa? Facilis quia incidunt rerum tempore debitis ad, earum dolorum sit. Minima, atque?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo magni illo similique ea tempora quam laborum, odit exercitationem possimus assumenda consequuntur doloribus id provident ducimus modi, quia ratione asperiores dolorem.
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, non. Optio aperiam molestiae corrupti dolorem, doloribus sapiente repellendus, nostrum mollitia quaerat fugit, ipsa ullam ab voluptatem tenetur eum et vel?
-
+<div class="container" id="work">
+  <div>
+    <h2>Work Experience</h2>
   </div>
+  <ul>
+    <li *ngFor="let work of workList" class="works">
+      <span id="role">{{work.role}}</span><br>
+      <span id="company">{{work.company}}</span><br>
+      <span id="duration">{{work.duration}}</span><br>
+      <ul>
+        <li *ngFor="let desc of work.description" id="sublist" class="py-1">{{desc}} </li>
+      </ul>
+    </li>
+  </ul>
+</div>

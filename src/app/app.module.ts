@@ -10,6 +10,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectComponent } from './project/project.component';
 import { WorkComponent } from './work/work.component';
 import { CertificationComponent } from './certification/certification.component';
+import { ResumeComponent } from './resume/resume.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { CertificationComponent } from './certification/certification.component'
     SkillsComponent,
     ProjectComponent,
     WorkComponent,
-    CertificationComponent
+    CertificationComponent,
+    ResumeComponent
  
   ],
   imports: [

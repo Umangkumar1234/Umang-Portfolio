@@ -16,19 +16,16 @@ export class PosterComponent implements OnInit {
 
 
   }
-  onClick(elementId: string): void {
-    this.viewPortScroller.scrollToAnchor(elementId);
+  onClick() {
+    this.viewPortScroller.scrollToAnchor('AnchorId');
+}
 
-  }
 
   onClickContact(elementId: string): void {
     this.viewPortScroller.scrollToAnchor(elementId);
 
   }
-  onClickedu(elementId: string): void {
-    this.viewPortScroller.scrollToAnchor(elementId);
 
-  }
 
   onClickCerti(elementId: string): void {
     this.viewPortScroller.scrollToAnchor(elementId);
@@ -49,6 +46,13 @@ export class PosterComponent implements OnInit {
     this.viewPortScroller.scrollToAnchor(elementId);
 
   }
+  onClickResume(elementId: string): void {
+    this.viewPortScroller.scrollToAnchor(elementId);
 
+  }
+
+  scrollTo() {
+    this.viewPortScroller.scrollToAnchor('education');
+}
 
 }

@@ -17,3 +17,14 @@
     box-shadow: 0.5px 0.5px 1px white;
     transform: scale(1.13);
 }
+
+@media (max-width:420px) {
+    .experience,h3{
+        font-size: 0.7rem;
+    
+    }
+    .skill,.abc1{
+        font-size: 0.5rem;
+    }
+   
+}

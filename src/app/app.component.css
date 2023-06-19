@@ -1,8 +1,28 @@
-:host{
+:host {
     display: block;
     background-color: black;
 }
 
 
 
+@media (max-width:420px) {
+    .portfolio span {
+        font-size: 0.8rem;
+    }
 
+    .portfolio {
+        text-align: center;
+    }
+
+
+    .mobno span{
+        font-size: 1rem;
+
+    }
+
+    .mobno{
+        text-align: center;
+
+    }
+
+}

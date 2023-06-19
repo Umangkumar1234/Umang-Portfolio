@@ -1,0 +1,43 @@
+:host {
+    display: block;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+ .works{
+    list-style: none;
+}
+
+ul li ul {
+    margin-top: 1.5rem;
+}
+
+#role{
+   color: rgb(235, 89, 5); 
+}
+
+#role::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -80px;
+    top: 5px;
+    background-color: rgb(235, 89, 5);
+    
+}
+#duration{
+    font-size: 0.9rem;
+}
+
+@media (max-width:420px) {
+    #sublist{
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    #duration{
+        font-size: 0.8rem;
+    }
+
+}
