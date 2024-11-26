@@ -1,6 +1,6 @@
 :host {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 3rem 2rem;
 }
 
@@ -8,4 +8,37 @@ ul li{
     font-size: 0.9rem;
     padding-top: 1.3rem;
     text-align: justify;
+}
+.project-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: #e7800a;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h2 {
+    color: #e6630b;
+    font-size: 1.5rem;
+  }
+  
+  .project ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    gap: 5px;
+    
+  }
+  
+  .project ul li {
+    margin-bottom: 5px;
+  }
+  
+
+  @media (max-width:420px) {
+    .project h2 {
+        color: #e6630b;
+        font-size: 1.1rem;
+      }
+
 }

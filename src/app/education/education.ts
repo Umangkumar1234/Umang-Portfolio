@@ -11,3 +11,10 @@ export interface WorkExperience{
     duration:string;
     description:string[];
 }
+
+export interface WorkExperienceAssociate{
+    role:string;
+    company:string;
+    duration:string;
+    description:string[];
+}

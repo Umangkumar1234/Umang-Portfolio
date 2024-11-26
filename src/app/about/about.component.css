@@ -18,15 +18,18 @@
 }
 
 @media (max-width:420px) {
+    .m-5 {
+        margin: 1.2rem !important;
+    }
     
     .abc span{
         color: aliceblue;
-        font-size: 0.7rem; 
+        font-size: 0.8rem; 
         width: fit-content;
     }
     .abc span a{
         color: rgb(19, 3, 114);
-        font-size: 0.7rem; 
+        font-size: 0.8rem; 
         width: fit-content;
     }
 

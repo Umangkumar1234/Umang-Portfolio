@@ -12,7 +12,7 @@ export class EducationComponent {
       institute: 'Marwadi Education Foundation’s Group of Institutions (MEFGI) Rajkot',
       course: 'B.E. Computer Engineering',
       duration: '2019-2023',
-      score: 'CPI:8.49'
+      score: 'CGPA:8.40'
     },
     {
       institute: '+2 Janta High School Parsuani, Sitamarhi',
